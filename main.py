@@ -6,7 +6,7 @@ import aiohttp
 bot = Bot("m!")
 
 quote_wall_id = 692999924349927514
-webhook_url = "https://discordapp.com/api/webhooks/775654348705234955/dVydZN6tGQOG79SHqxRpaMQUNfiAKS23zyW4xKEwFwqdzDm_4QE6hof-BrcdYIfab5S7"
+webhook_url = getenv("WEBHOOK_URL")
 bot_token = getenv("BOT_TOKEN")
 
 
